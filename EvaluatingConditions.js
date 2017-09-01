@@ -1,5 +1,5 @@
 var playerOne = prompt("Enter a number between 1-6");
-if ((playerOne < 1) || (playerOne > 6)) {
+if ((playerOne < 1) || (playerOne > 6) || isNaN(playerOne)) {
 		window.alert("You cannot follow directions");
 }
 else { 
@@ -19,3 +19,4 @@ else {
 //compare both values
 //if player 2 guess the same as player 1, tell player 2 he or she has won.
 //obviously, if the guess is wrong, player 2 loses
+
