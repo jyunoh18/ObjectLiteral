@@ -14,14 +14,14 @@ window.alert(stem[lowercase]);
 }
 
 else { 
-for (i = 0; i<3; i++) {
+for (i = 1; i<3; i++) {
 
-var userInput = prompt("classroom or students?");
+var userInput = prompt("classroom or students. You have tried" + i + "times");
 var lowercase = userInput.toLowerCase();
 
 if ((lowercase == "classroom") || (lowercase == "students")) {
 	i = 3;
 window.alert(stem[lowercase]);
-}
-}
+		}
+	}
 }
