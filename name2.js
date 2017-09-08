@@ -2,7 +2,9 @@
 
 function showName () {
 	var userName = document.getElementById('userName').value;
+	//I will take info from the user and save it as userName
   document.getElementById('one').innerHTML="Hello" +" "+ userName;
+	//Output userName to HTML in the ID called "one"
 }
 
 ------------------------------------------------------------------
